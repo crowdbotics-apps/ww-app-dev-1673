@@ -22,7 +22,6 @@ class CustomText(models.Model):
 
 
 class HomePage(models.Model):
-    body = models.TextField()
     should = models.BigIntegerField(null=True, blank=True,)
 
     @property
